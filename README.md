@@ -11,11 +11,12 @@ It is recommended to have the latest version of neovim possible
 This configuration works with [packer](https://github.com/wbthomason/packer.nvim?tab=readme-ov-file#quickstart). Ensure you have it installed on your system before continuing
 
 It also has the plugins:
-[coc](https://github.com/neoclide/coc.nvim) which requires nodejs >= 16.18.0 and npm
+
+-- [coc](https://github.com/neoclide/coc.nvim) which requires nodejs >= 16.18.0 and npm
 
 and
 
-[codeium](https://github.com/Exafunction/codeium.nvim) which requires you to login to a codeium account
+-- [codeium](https://github.com/Exafunction/codeium.nvim) which requires you to login to a codeium account
 
 # Setup
 
