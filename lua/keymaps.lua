@@ -53,8 +53,8 @@ map('n', "<C-g>", "<cmd>Telescope live_grep<CR>", opts, { desc = "I don't know w
 map('n', "<C-b>", "<cmd>Telescope buffers<CR>", opts, { desc = "Make telescope search through tabs" })
 
 -- Basic stuff
-map('n', "<Space>q", ":q<CR>", opts, { desc = "Quit" })
-map('n', "<Space>Q", ":qa<CR>", opts, { desc = "Quit all" })
-map('n', "<C-w>", ":w<CR>", opts, { desc = "Save current buffer" })
+map('n', "<C-q>", ":q<CR>", opts, { desc = "Quit" })
+map('n', "<Space>q", ":qa<CR>", opts, { desc = "Quit all" })
+map('n', "<C-s>", ":w<CR>", opts, { desc = "Save current buffer" })
 map('n', "<Space>w", ":wa<CR>", opts, { desc = "Save all buffers" })
 

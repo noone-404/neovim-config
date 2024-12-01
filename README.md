@@ -42,7 +42,7 @@ and simply wait for it to be installed.
 
 If some packages are not installed open neovim and press the same command.
 
-Also if you want to use this for c and c++ development then insure you have "coc" installed and press
+Also if you want to use this for c and c++ development then insure you have "coc" installed, make it see such file and press
 ```bash
 :CocCommand clangd.install
 ```
@@ -71,6 +71,16 @@ The Keybindings are accesible to change in the "keymaps.lua" file
 * alt+rightarrow: To move to the next one
 
 * alt+leftarrow: To move to the previous one
+
+**Other stuff:**
+
+* control+s: Save current file
+
+* space+w: Save all buffer changes
+
+* control+q: Quit neovim buffer
+
+* space+q: Quit neovim as a whole
 
 **The Plugins that are being used are:**
 
