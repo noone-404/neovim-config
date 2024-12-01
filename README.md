@@ -31,7 +31,7 @@ git clone https://github.com/noone-404/neovim-config.git ~/.config/nvim
 
 For Windows:
 ```powershell
-git clone https://github.com/noone-404/neovim-config.git $HOME\AppData\nvim
+git clone https://github.com/noone-404/neovim-config.git $HOME\AppData\Local\nvim
 ```
 
 Open neovim and continue to press enter to ignore all the errors and warnings, after you are in type:
