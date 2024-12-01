@@ -86,7 +86,7 @@ The Keybindings are accesible to change in the "keymaps.lua" file
 
 -- [Neo-Tree](https://github.com/nvim-neo-tree/neo-tree.nvim) -- under the plugs/neo-nvim.lua file
 
-Used to have a hierarchy of the project
+Used to have a hierarchy/File explorer to traverse files on the project
 
 shortcuts:
 
@@ -144,6 +144,22 @@ Autocompletion make sure to add the langueges you want in the lua file specified
 -- [Kanagawa colorthemes](https://github.com/rebelot/kanagawa.nvim) -- under the plugs/color-theme.lua
 
 It comes with the "kanagawa", "kanagawa-wave", "kanagawa-lotus" and "kanagawa-dragon" themes
+
+-- [Tetris](https://github.com/alec-gibson/nvim-tetris) -- currently no config file
+
+The controls are self-explanatory also explained in the github
+
+shortcuts:
+
+space+tet: To launch an instance of Tetris
+
+-- [Minesweeper](https://github.com/seandewar/nvimesweeper) -- currently no config file
+
+The controls are explained in it's github
+
+shortcuts:
+
+space+mine: Launches an instance of Minesweeper
 
 ## License
 

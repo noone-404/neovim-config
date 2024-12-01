@@ -58,3 +58,9 @@ map('n', "<Space>q", ":qa<CR>", opts, { desc = "Quit all" })
 map('n', "<C-s>", ":w<CR>", opts, { desc = "Save current buffer" })
 map('n', "<Space>w", ":wa<CR>", opts, { desc = "Save all buffers" })
 
+-- Launch Tetris
+map('n', "<Space>tet", ":Tetris<CR>", opts, { desc = "Start a game of Tetris" })
+
+-- Launch Minesweeper
+map('n', "<Space>mine", ":Nvimesweeper<CR>", opts, { desc = "Start a game of Minesweeper" })
+

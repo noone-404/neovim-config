@@ -3,6 +3,7 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 
+-- File explorer
 use {
   "nvim-neo-tree/neo-tree.nvim",
     branch = "v3.x",
@@ -14,17 +15,20 @@ use {
     }
 }
 
+-- Status bar
 use {
   'nvim-lualine/lualine.nvim',
   requires = { 'nvim-tree/nvim-web-devicons', opt = true }
 }
 
+-- File search
 use {
   'nvim-telescope/telescope.nvim', tag = '0.1.8',
 -- or                            , branch = '0.1.x',
   requires = { {'nvim-lua/plenary.nvim'} }
 }
 
+-- Alpha startup screen (buffer)
 use {
     'goolord/alpha-nvim',
     config = function ()
@@ -43,14 +47,23 @@ use {'neoclide/coc.nvim', branch = 'release'}
 -- Terminal for the environment
 use 'voldikss/vim-floaterm'
 
+-- Treesitter linter
 use {
     'nvim-treesitter/nvim-treesitter',
     run = ':TSUpdate'
 }
 
+-- The themes
 use "rebelot/kanagawa.nvim"
 
+-- Themes
 use 'Exafunction/codeium.vim'
+
+-- Tetris Game
+use 'alec-gibson/nvim-tetris'
+
+-- Minesweeper Game
+use 'seandewar/nvimesweeper'
 
 end)
 
