@@ -163,4 +163,4 @@ shortcuts:
 
 ## License
 
-Currently uses the [MIT](https://choosealicense.com/licenses/mit/) License 
+Currently uses the [GNU GPL 3](https://choosealicense.com/licenses/gpl-3.0/) License 
