@@ -151,7 +151,7 @@ The controls are self-explanatory also explained in the github
 
 shortcuts:
 
-space+tet: To launch an instance of Tetris
+* space+tet: To launch an instance of Tetris
 
 -- [Minesweeper](https://github.com/seandewar/nvimesweeper) -- currently no config file
 
@@ -159,7 +159,7 @@ The controls are explained in it's github
 
 shortcuts:
 
-space+mine: Launches an instance of Minesweeper
+* space+mine: Launches an instance of Minesweeper
 
 ## License
 
