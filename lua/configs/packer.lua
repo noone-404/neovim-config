@@ -3,6 +3,8 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
 
+use 'wbthomason/packer.nvim' -- This needs to be here otherwise packer will recommend to clean itself (issue exclusive to windows)
+
 -- File explorer
 use {
   "nvim-neo-tree/neo-tree.nvim",
@@ -28,6 +30,9 @@ use {
   requires = { {'nvim-lua/plenary.nvim'} }
 }
 
+-- Git implementation
+use 'lewis6991/gitsigns.nvim'
+
 -- Alpha startup screen (buffer)
 use {
     'goolord/alpha-nvim',
@@ -36,13 +41,17 @@ use {
     end
 }
 
+-- Buffer configuration (Barbar by romgrk)
 -- These optional plugins should be loaded directly because of a bug in Packer lazy loading
 use 'nvim-tree/nvim-web-devicons' -- OPTIONAL: for file icons
-use 'lewis6991/gitsigns.nvim' -- OPTIONAL: for git status
+use 'tpope/vim-fugitive'
 use 'romgrk/barbar.nvim'
 
 -- Auto completion plugin Coc
-use {'neoclide/coc.nvim', branch = 'release'}
+use {'neoclide/coc.nvim', branch = 'release', run = "yarn install --frozen-lockfile" }
+
+-- CMake interpretation for newovim
+use 'Civitasv/cmake-tools.nvim'
 
 -- Terminal for the environment
 use 'voldikss/vim-floaterm'
@@ -56,7 +65,7 @@ use {
 -- The themes
 use "rebelot/kanagawa.nvim"
 
--- Themes
+-- AI Plugins
 use 'Exafunction/codeium.vim'
 
 -- Tetris Game
@@ -66,4 +75,6 @@ use 'alec-gibson/nvim-tetris'
 use 'seandewar/nvimesweeper'
 
 end)
+
+-- Add more to your config if you wish
 

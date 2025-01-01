@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/noname/.cache/nvim/packer_hererocks/2.1.1727870382/share/lua/5.1/?.lua;/home/noname/.cache/nvim/packer_hererocks/2.1.1727870382/share/lua/5.1/?/init.lua;/home/noname/.cache/nvim/packer_hererocks/2.1.1727870382/lib/luarocks/rocks-5.1/?.lua;/home/noname/.cache/nvim/packer_hererocks/2.1.1727870382/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/noname/.cache/nvim/packer_hererocks/2.1.1727870382/lib/lua/5.1/?.so"
+local package_path_str = "C:\\Users\\tryfo\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\share\\lua\\5.1\\?.lua;C:\\Users\\tryfo\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\share\\lua\\5.1\\?\\init.lua;C:\\Users\\tryfo\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\lib\\luarocks\\rocks-5.1\\?.lua;C:\\Users\\tryfo\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\lib\\luarocks\\rocks-5.1\\?\\init.lua"
+local install_cpath_pattern = "C:\\Users\\tryfo\\AppData\\Local\\Temp\\nvim\\packer_hererocks\\2.1.1713484068\\lib\\lua\\5.1\\?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -77,73 +77,98 @@ _G.packer_plugins = {
   ["alpha-nvim"] = {
     config = { "\27LJ\2\na\0\0\5\0\5\0\n6\0\0\0'\2\1\0B\0\2\0029\0\2\0006\2\0\0'\4\3\0B\2\2\0029\2\4\2B\0\2\1K\0\1\0\vconfig\27alpha.themes.dashboard\nsetup\nalpha\frequire\0" },
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
   ["barbar.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/barbar.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\barbar.nvim",
     url = "https://github.com/romgrk/barbar.nvim"
+  },
+  ["cmake-tools.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmake-tools.nvim",
+    url = "https://github.com/Civitasv/cmake-tools.nvim"
   },
   ["coc.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\coc.nvim",
     url = "https://github.com/neoclide/coc.nvim"
   },
   ["codeium.vim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/codeium.vim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\codeium.vim",
     url = "https://github.com/Exafunction/codeium.vim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   ["kanagawa.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\kanagawa.nvim",
     url = "https://github.com/rebelot/kanagawa.nvim"
   },
   ["lualine.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
   ["neo-tree.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
   ["nui.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nui.nvim",
     url = "https://github.com/MunifTanjim/nui.nvim"
+  },
+  ["nvim-tetris"] = {
+    loaded = true,
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-tetris",
+    url = "https://github.com/alec-gibson/nvim-tetris"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
+  },
+  nvimesweeper = {
+    loaded = true,
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvimesweeper",
+    url = "https://github.com/seandewar/nvimesweeper"
+  },
+  ["packer.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
+    url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-floaterm"] = {
     loaded = true,
-    path = "/home/noname/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-floaterm",
     url = "https://github.com/voldikss/vim-floaterm"
+  },
+  ["vim-fugitive"] = {
+    loaded = true,
+    path = "C:\\Users\\tryfo\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
+    url = "https://github.com/tpope/vim-fugitive"
   }
 }
 

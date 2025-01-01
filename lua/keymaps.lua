@@ -1,6 +1,9 @@
 local map = vim.keymap.set
 local opts = { noremap = true, silent = true }
 
+-- Packer syncronization keymap
+map('n', "<M-C-Shift-z>", ":PackerSync", opts, {desc = "Syncronize the packer packegies with just a key combination for every change"})
+
 -- Switching between windows
 map('n', "<C-h>", "<C-w>h", opts, { desc = "switch window left" })
 map('n', "<C-l>", "<C-w>l", opts, { desc = "switch window right" })
@@ -56,11 +59,17 @@ map('n', "<C-b>", "<cmd>Telescope buffers<CR>", opts, { desc = "Make telescope s
 map('n', "<C-q>", ":q<CR>", opts, { desc = "Quit" })
 map('n', "<Space>q", ":qa<CR>", opts, { desc = "Quit all" })
 map('n', "<C-s>", ":w<CR>", opts, { desc = "Save current buffer" })
-map('n', "<Space>w", ":wa<CR>", opts, { desc = "Save all buffers" })
+map('n', "<Space>s", ":wa<CR>", opts, { desc = "Save all buffers" })
+map('n', "<C-z>", ":u<CR>", opts, { desc = "Undo the changes with a keybind like a modern IDE" })
 
 -- Launch Tetris
 map('n', "<Space>tet", ":Tetris<CR>", opts, { desc = "Start a game of Tetris" })
 
 -- Launch Minesweeper
 map('n', "<Space>mine", ":Nvimesweeper<CR>", opts, { desc = "Start a game of Minesweeper" })
+
+-- Using the CMake plugin
+map('n', "<Space>gen", ":CMakeGenerate<CR>", opts, { desc = "Generate cmake configuration"})
+map('n', "<Space>bu", ":CMakeBuild<CR>", opts, { desc = "Generate cmake build files"})
+map('n', "<Space>run", ":CMakeRun<CR>", opts, { desc = "Run the cmake executable"})
 

@@ -4,7 +4,7 @@ vim.g['coc_snippet#enable'] = true
 vim.g.coc_global_extensions = {
   'coc-pairs',
   'coc-json',
-  'coc-lua',
+  -- 'coc-lua', -- Lua is not supported in windows (Of course if you are running linux then uncomment and delete the message)
   'coc-prettier',
   'coc-rust-analyzer',
   'coc-clangd',
