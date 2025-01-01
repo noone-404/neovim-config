@@ -1,5 +1,3 @@
--- Default configuration on "https://github.com/Civitasv/cmake-tools.nvim"
-
 local osys = require("cmake-tools.osys")
 require("cmake-tools").setup {
   cmake_command = "cmake", -- this is used to specify cmake command path
